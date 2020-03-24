@@ -1,0 +1,6 @@
+easy to understand and maintain
+less coupled
+more testible
+
+coupling;
+dependency between various modules

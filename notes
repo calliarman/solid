@@ -1,0 +1,23 @@
+Inversion of Control
+If we want to add our own behavior, we need to extend the classes of the framework or plugin our own classes.
+
+Inversion of Control can be achieved through various mechanisms such as:
+Strategy design pattern, Service Locator pattern, Factory pattern, and Dependency Injection (DI).
+
+IoC enables a framework to take control of the flow of a program and make calls to our custom code.
+
+example
+	creditCard demo, isValid(), strategy pattern
+
+
+Dependency Injection
+In case of Field-Based DI, we can inject the dependencies by marking them with an @Autowired annotation:
+
+public class Store {
+    @Autowired
+    private Item item;
+}
+
+
+Fragility:
+Tendency of the sw to break in many places everytime when it is changed
